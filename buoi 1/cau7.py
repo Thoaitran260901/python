@@ -1,4 +1,7 @@
 print("----HÌNH TAM GIÁC----")
-print("     *     ")
-print("    ***    ")
-print("  *******  ")
+mang = int(input("nhap so luong: "))
+for cdoc in range(mang):
+ for cngang in range(mang):
+     if cngang == range(mang) or cngang < cdoc or cngang == cdoc :
+      print("*",end="")
+ print()
