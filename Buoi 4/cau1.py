@@ -1,10 +1,10 @@
-my_string = input("nhập chuỗi: ")
-def thay_ki_tu():
-    a= my_string[0]
-    for i in range(1,len(my_string)):
-        if my_string[i] == my_string[0]:
+chuoi = input("nhập chuỗi: ")
+def thaythe():
+    a= chuoi[0]
+    for i in range(1,len(chuoi)):
+        if chuoi[i] == chuoi[0]:
             a+="$"
         else:
-            a+=my_string[i]
+            a+=chuoi[i]
     return a
-print(thay_ki_tu())
+print(thaythe())
