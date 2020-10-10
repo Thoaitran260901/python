@@ -1,10 +1,10 @@
-chuoi = input("nhap: ")
-def thaydoichucaidau():
-    s= "$"
-    for i in range(1,len(chuoi)):
-        if chuoi[i] == chuoi[0]:
-            s+="$"
+my_string = input("nhập chuỗi: ")
+def thay_ki_tu():
+    a= my_string[0]
+    for i in range(1,len(my_string)):
+        if my_string[i] == my_string[0]:
+            a+="$"
         else:
-            s+=chuoi[i]
-    return s
-print(f"chuoi: {thaydoichucaidau()}")
+            a+=my_string[i]
+    return a
+print(thay_ki_tu())
